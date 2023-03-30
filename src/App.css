@@ -28,11 +28,71 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  /* background-color: rgb(38, 38, 95) */
+  background-image: linear-gradient(rgb(5, 5, 5), rgb(38,38,95));
 }
+.searchUser{
+  min-height: 2em;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.addUser{
+  min-height: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.displayUser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userCard{
+  border:1px solid black;
+  margin:10px;
+  width:50vw;  
+  border-radius: 10px;
+  box-shadow: 5px 8px black;
+  padding: 5px;
+ background-color: lightcyan;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.statiCard{
+  border:1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 8px black;
+  background-color:lightseagreen;
+  color: black;
+  margin: 20px;
+}
+button{
+  color:white;
+  background-color: darkcyan;
+  border-radius: 10%;
+  margin-left: 5px;;
+}
+.profileImg{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.footer{
+  height: 5vh;
+  margin-top: 10px;
+  color: grey;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter{
+  margin-bottom: 35px;;
+}
+
+
